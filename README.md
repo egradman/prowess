@@ -8,6 +8,13 @@ Tools like [`npx skills`](https://github.com/vercel-labs/skills) permanently ins
 npx @egradman/prowess claude vercel-labs/agent-skills -s web-design-guidelines
 ```
 
+Or install globally for a shorter command:
+
+```bash
+npm install -g @egradman/prowess
+prowess claude vercel-labs/agent-skills -s web-design-guidelines
+```
+
 ## How it works
 
 1. Parses your skill source (GitHub repo, GitLab, local path, direct URL)

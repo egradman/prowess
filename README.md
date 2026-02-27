@@ -3,7 +3,7 @@
 Run AI coding agents with temporary skills. No permanent installation — skills are cached locally and loaded via a temp plugin directory that's cleaned up on exit.
 
 ```
-npx prowess claude vercel-labs/agent-skills -s web-design-guidelines
+npx @egradman/prowess claude vercel-labs/agent-skills -s web-design-guidelines
 ```
 
 ## How it works
@@ -37,16 +37,16 @@ prowess <agent> <source> [-s/--skill <name>...]
 
 ```bash
 # Load all skills from a repo
-npx prowess claude vercel-labs/agent-skills
+npx @egradman/prowess claude vercel-labs/agent-skills
 
 # Pick specific skills
-npx prowess claude vercel-labs/agent-skills -s web-design-guidelines -s react-best-practices
+npx @egradman/prowess claude vercel-labs/agent-skills -s web-design-guidelines -s react-best-practices
 
 # From a local directory
-npx prowess claude ./my-custom-skills
+npx @egradman/prowess claude ./my-custom-skills
 
 # From a GitHub URL with a subpath
-npx prowess claude https://github.com/someone/repo/tree/main/skills/advanced
+npx @egradman/prowess claude https://github.com/someone/repo/tree/main/skills/advanced
 ```
 
 ### Caching

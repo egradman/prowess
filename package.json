@@ -1,12 +1,16 @@
 {
-  "name": "prowess",
+  "name": "@egradman/prowess",
   "version": "0.1.0",
   "description": "Run agent sessions with temporary skills",
   "type": "module",
   "bin": {
     "prowess": "./index.js"
   },
-  "dependencies": {
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egradman/prowess.git"
+  },
+"dependencies": {
     "chalk": "^5.3.0",
     "commander": "^12.1.0",
     "gray-matter": "^4.0.3",

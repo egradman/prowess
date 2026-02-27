@@ -1,6 +1,8 @@
 # prowess
 
-Run AI coding agents with temporary skills. No permanent installation — skills are cached locally and loaded via a temp plugin directory that's cleaned up on exit.
+Sometimes you just want to borrow someone else's skills, not keep them. For those times when you want to test a skill or perform a one-off, use `prowess`.
+
+Tools like [`npx skills`](https://github.com/vercel-labs/skills) permanently install skills into your project or home directory. Prowess doesn't — it builds a temp plugin directory, launches your agent with the skills loaded, and cleans up when you're done. Nothing left behind.
 
 ```
 npx @egradman/prowess claude vercel-labs/agent-skills -s web-design-guidelines
